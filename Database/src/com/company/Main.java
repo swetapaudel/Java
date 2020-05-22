@@ -24,14 +24,14 @@ public class Main {
 //        int y= st.executeUpdate("insert into student values(1004, 'Jolly')");
 //        System.out.println("Values inserted");
 
-        ResultSet result = st.executeQuery("Select * from student");
-        System.out.println("Student Database");
-        while(result.next()){
-            String table = result.getString("studentID");
-            String name =  result.getString("name");
-            System.out.println(table);
-            System.out.println(name);
-
+//        ResultSet result = st.executeQuery("Select * from student");
+//        System.out.println("Student Database");
+//        while(result.next()){
+//            String table = result.getString("studentID");
+//            String name =  result.getString("name");
+//            System.out.println(table);
+//            System.out.println(name);
+//
 //        int update = st.executeUpdate("update student set name='Jane' where studentID = 1002");
 //
 //        if (update != 0){
